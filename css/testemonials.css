@@ -38,5 +38,11 @@
 @media screen and (min-width: 1440px) {
   .testemonial-container {
     flex-direction: row;
+    gap: 24px;
+  }
+
+  .testemonial-container article header p {
+    width: 384px;
+    min-height: 112px;
   }
 }
