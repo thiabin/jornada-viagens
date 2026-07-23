@@ -1,7 +1,3 @@
-.offers {
-  margin-bottom: 104px;
-}
-
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -47,22 +43,30 @@
 }
 
 .card.japao {
-  background: url(../img/bg-card-japao.jpg) no-repeat;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-card-japao.jpg");
   background-size: cover;
 }
 
 .card.san-andres {
-  background: url(../img/bg-card-san-andres.jpg) no-repeat;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-card-san-andres.jpg");
   background-size: cover;
 }
 
 .card.paraiba {
-  background: url(../img/bg-card-paraiba.jpg) no-repeat;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-card-paraiba.jpg");
   background-size: cover;
 }
 
 .card.manaus {
-  background: url(../img/bg-card-manaus.jpg) no-repeat;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-card-manaus.jpg");
   background-size: cover;
 }
 
